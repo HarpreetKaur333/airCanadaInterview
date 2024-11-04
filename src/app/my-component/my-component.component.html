@@ -1,0 +1,29 @@
+<p>{{ message | capitalize }}</p>
+
+
+
+
+<p>{{ today | date }}</p> <!-- Default format -->
+<p>{{ today | date:'short' }}</p> <!-- Short format -->
+<p>{{ today | date:'fullDate' }}</p> <!-- Full date format -->
+<p>{{ today | date:'yyyy-MM-dd' }}</p> <!-- Custom format -->
+<p>{{ today | date:'dd/MM/yyyy, h:mm a' }}</p> <!-- Custom date and time -->
+
+
+
+<p>{{ inputData }}</p>
+
+
+
+<!-- <ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul> -->
+
+<!-- <div [ngSwitch]="fruit">
+  <p *ngSwitchCase="'Apple'">You chose an Apple!</p>
+  <p *ngSwitchCase="'Banana'">You chose a Banana!</p>
+  <p *ngSwitchDefault>Choose a fruit</p>
+</div>
+<button (click)="selectFruit('Apple')">Apple</button>
+<button (click)="selectFruit('Banana')">Banana</button> -->
+

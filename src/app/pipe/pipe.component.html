@@ -1,0 +1,10 @@
+<p>pipe works!</p>
+<h1>Standalone Pipe Example</h1>
+<p>{{ longText | truncatePipe:15 }}</p>
+
+
+<!-- impure Pipe  -->
+<input [(ngModel)]="searchText" placeholder="Search items">
+<ul>
+  <li *ngFor="let item of items | filter:searchText">{{ item.name }}</li>
+</ul>
