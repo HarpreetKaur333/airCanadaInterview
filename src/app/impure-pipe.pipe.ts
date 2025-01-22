@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'impurePipe',
+  name: 'filter',
   standalone: true,
   pure: false // This makes the pipe impure
 })
